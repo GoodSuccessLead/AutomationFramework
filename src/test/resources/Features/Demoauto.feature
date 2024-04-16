@@ -12,8 +12,8 @@ Feature: Test Demo Dev
     Then I select perfil <perfil>
     And I select the menu
     And Select suboption from menu intelica <menuprincipal>
-    And Select suboption from principal menu suboption
-    And Select newoption from submenusubmenu
+    And Select suboption from principal menu suboption <submenu>
+    And Select newoption from submenusubmenu <option>
     And Close x popup
     And Select the hamburger menu
     And Select the first option filters
@@ -32,6 +32,6 @@ Feature: Test Demo Dev
 
 
     Examples:
-      | environment | username                   | password | perfil | menuprincipal | group         | region | country | bank | bankstatus | category | subcategory | period | feecode | feename | invoicenum |
-      | QA          | rosario.chale@intelica.com | depapym  | -      | M&V Billing   |               |        |         |      |            |          |             |        | TEA1111 | TEA1111 | 11111      |
-      | QA          | rosario.chale@intelica.com | depapym  | -      | TEST          | Group -Isbank | T      | country | bank | bankstatus | category | subcategory | period | TEA2222 | TEA2222 | 22222      |
+      | environment | username                   | password | perfil | menuprincipal | submenu     | option           | group         | region | country | bank | bankstatus | category | subcategory | period | feecode | feename | invoicenum |
+      | QA          | rosario.chale@intelica.com | depapym  | -      | M&V Billing   |             |                  |               |        |         |      |            |          |             |        | TEA1111 | TEA1111 | 11111      |
+      | QA          | rosario.chale@intelica.com | depapym  | -      | M&V Billing   | Fee Summary | Original Invoice | Group -Isbank | T      | country | bank | bankstatus | category | subcategory | period | TEA2222 | TEA2222 | 22222      |
