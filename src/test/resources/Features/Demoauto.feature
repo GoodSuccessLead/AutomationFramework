@@ -1,14 +1,15 @@
 @Demo-auto
 
-Feature: Test Demo Dev
+Feature: Test Demo Automation
 
-  Scenario Outline: Validate Successful submission
+  Scenario Outline: Automation - Menu Hamburguesa
 
     Given I access to the platform <environment>
     When Select login button
     And I enter a username <username>
     And Enter the passsword <password>
     And Select generate token button
+    And Select lenguage <lenguage>
     Then I select perfil <perfil>
     And I select the menu
     And Select suboption from menu intelica <menuprincipal>
@@ -32,6 +33,6 @@ Feature: Test Demo Dev
 
 
     Examples:
-      | environment | username                   | password | perfil | menuprincipal | submenu     | option           | group         | region  | country | bank | bankstatus | category | subcategory | period | feecode | feename | invoicenum |
-      | QA          | rosario.chale@intelica.com | depapym  | -      | M&V Billing   |             |                  |               |         |         |      |            |          |             |        | TEA1111 | TEA1111 | 11111      |
-      | QA          | rosario.chale@intelica.com | depapym  | -      | M&V Billing   | Fee Summary | Original Invoice | Group -Isbank | Testing | country | bank | bankstatus | category | subcategory | period | TEA2222 | TEA2222 | 22222      |
+      | environment | username                   | password | lenguage | perfil | menuprincipal | submenu     | option           | group            | region  | country | bank | bankstatus | category | subcategory | period | feecode | feename | invoicenum |
+      | QA          | rosario.chale@intelica.com | depapym  | ENG      | -      | M&V Billing   | Fee Summary | Original Invoice | Group - Lloyds   | Testing | country | bank | bankstatus | category | subcategory | period | TEA1111 | TEA1111 | 11111      |
+      | QA          | rosario.chale@intelica.com | depapym  | ESP      | -      | M&V Billing   | Fee Summary | Original Invoice | Group - OTP Bank | Testing | country | bank | bankstatus | category | subcategory | period | TEA2222 | TEA2222 | 22222      |

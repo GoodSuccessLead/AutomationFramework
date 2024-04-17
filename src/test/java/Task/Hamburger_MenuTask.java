@@ -9,12 +9,12 @@ public class Hamburger_MenuTask {
         Hamburger_MenuUI mhamgurger = new Hamburger_MenuUI();
         mhamgurger.hamburger_menu.click();
         System.out.println("Select the hamburger menu");
-        Thread.sleep(3_000);
+        Thread.sleep(2_000);//3
     }
     public void filters() throws InterruptedException{
         Filters_FieldsUI mhamgurger = new Filters_FieldsUI();
         mhamgurger.filters.click();
         System.out.println("Option Filters");
-        Thread.sleep(10_000);
+        Thread.sleep(2_000);//10
     }
 }

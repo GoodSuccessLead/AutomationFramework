@@ -43,7 +43,7 @@ public class MenuTask {
         //x.selectByVisibleText(menuprincipal);
         //submenu.submenugprincipal.click();
         System.out.println("Seleccionaste Sub-Menu: "+menuprincipal); // se enviara como variable // esto es un listado
-        Thread.sleep(5_000);
+        Thread.sleep(3_000);
     }
 
     public void option_from_submenu(String submenu) throws InterruptedException {
@@ -86,12 +86,12 @@ public class MenuTask {
             TestOptionllUI options_options = new TestOptionllUI();
             options_options.option_from_option1.click();
             System.out.println("Select Option: Original Invoice");
-            Thread.sleep(20_000);
+            Thread.sleep(5_000);// era 20
         }if(Objects.equals(option, "Intelica Allocated")){
             TestOptionllUI options_options = new TestOptionllUI();
             options_options.option_from_option2.click();
             System.out.println("Select Option: Original Invoice");
-            Thread.sleep(20_000);
+            Thread.sleep(15_000);// era 25
         }
     }
     public void closepopup() throws InterruptedException{
