@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="TestDemo" parallel="classes">
+    <test name="Verification">
+        <classes>
+            <class name="runners.Mainrunner"></class>
+        </classes>
+    </test>
+</suite>

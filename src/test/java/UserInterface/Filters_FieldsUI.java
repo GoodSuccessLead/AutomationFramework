@@ -11,7 +11,8 @@ public class Filters_FieldsUI extends config {
     public WebElement filters = driver.findElement(By.xpath("//*[@id=\"HamburgerMenu\"]/div/div[1]/div[2]/button[1]/span[2]"));
     public WebElement clear_button = driver.findElement(By.xpath("//*[@id=\"HamburgerMenu\"]/div/div[2]/div[2]/app-filter/div[2]/button[2]"));
     public WebElement field_group = driver.findElement(By.xpath("//*[@id=\"filter\"]/span/span"));
-    public WebElement field_region = driver.findElement(By.xpath("//*[@id=\"HamburgerMenu\"]/div/div[2]/div[2]/app-filter/div[1]/div/div[1]/div[2]/div/div[2]"));
+    public WebElement field_group_select = driver.findElement(By.id("filter_hidden"));
+    //public WebElement field_region = driver.findElement(By.xpath("//*[@id=\"HamburgerMenu\"]/div/div[2]/div[2]/app-filter/div[1]/div/div[1]/div[2]/div/div[2]"));
     public WebElement field_country = driver.findElement(By.xpath("//*[@id=\"HamburgerMenu\"]/div/div[2]/div[2]/app-filter/div[1]/div/div[1]/div[3]/div/div[2]"));
     public WebElement field_bank = driver.findElement(By.xpath("//*[@id=\"HamburgerMenu\"]/div/div[2]/div[2]/app-filter/div[1]/div/div[1]/div[4]/div/div[2]"));
     public WebElement field_bank_status = driver.findElement(By.xpath("//*[@id=\"HamburgerMenu\"]/div/div[2]/div[2]/app-filter/div[1]/div/div[1]/div[5]/div/div[2]"));

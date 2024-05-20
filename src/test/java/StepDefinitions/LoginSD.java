@@ -3,9 +3,11 @@ package StepDefinitions;
 import Task.LoginTask;
 import io.cucumber.java.en.When;
 
+import java.io.FileNotFoundException;
+
 public class LoginSD {
     @When("Select login button")
-    public void select_login_button() throws InterruptedException {
+    public void select_login_button() throws InterruptedException, FileNotFoundException {
 
         LoginTask tst = new LoginTask();
         tst.Login();

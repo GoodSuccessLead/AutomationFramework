@@ -1,42 +1,52 @@
 package StepDefinitions;
 
+import Task.ConfigEnvironmentTask;
 import Task.CredentialsTask;
+import Util.Readfilexlsx;
+import Util.ScreenShot;
+import Util.TimeLoad;
+import Util.newTestexcel;
 import io.cucumber.java.en.And;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriverException;
+import org.testng.annotations.Test;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.Map;
+
+import static Util.newlog.log;
 
 public class CredentialsSD {
-    @And("I enter a username {}")
-    public void i_enter_a_username(String username) throws InterruptedException{
+    @And("I enter the credentials {},{}")
+    public void i_enter_a_username(String Sheetname, Integer Rownumber) throws InterruptedException, IOException {
+        newTestexcel reader = new newTestexcel();
+        List<Map<String, String>> testdata = reader.getData("src/test/resources/ExcelData/Inputfile.xlsx", Sheetname);
+        String username = testdata.get(Rownumber).get("username");
+        String passwords = testdata.get(Rownumber).get("password");
+
         CredentialsTask tst = new CredentialsTask();
         tst.username(username);
-        /*
-        CredentialsUI user = new CredentialsUI();
-        user.username.click();
-        user.username.sendKeys(username);
-        Thread.sleep(2_000);
-        System.out.println("You send User");
-        */
-    }
-    @And("Enter the passsword {}")
-    public void enter_the_password(String password) throws InterruptedException {
-        CredentialsTask tst = new CredentialsTask();
-        tst.password(password);
-        /*
-        CredentialsUI pwd = new CredentialsUI();
-        pwd.password.click();
-        pwd.password.sendKeys(password);
-        System.out.println("You send Password");
-         */
+        tst.password(passwords);
+        ScreenShot shoot = new ScreenShot();
+        shoot.TakeScreenShot();
+
     }
     @And("Select generate token button")
     public void select_generate_token_button() throws InterruptedException {
         CredentialsTask tst = new CredentialsTask();
         tst.token();
-        /*
-        CredentialsUI button = new CredentialsUI();
-        button.generate_token.click();
-        Thread.sleep(18_000); //se coloco tiempo solo para visualiar la plataforma
-        System.out.println("Click on Generate Token");
-        //se controlara la carga
-        */
+        //ConfigEnvironmentTask test = new ConfigEnvironmentTask();
+        //test.waittime();
+
     }
+    /*
+    @Test
+    public void newtestloading(){
+        TimeLoad pruebas = new TimeLoad();
+        pruebas.waitload_test();
+    }
+
+     */
 }

@@ -1,0 +1,735 @@
+2024-05-15 12:01:21: <<<<<<< Log Started >>>>>>>
+2024-05-15 12:01:21: The Browser is up
+2024-05-15 12:01:28: Environment: QA
+2024-05-15 12:01:33: Click on Login Button
+2024-05-15 12:01:35: You send User: rosario.chale@intelica.com
+2024-05-15 12:01:35: You send Password: depapym
+2024-05-15 12:01:35: Page Screen is taken successfully.
+2024-05-15 12:01:45: Click on Generate Token
+2024-05-15 12:01:46: Page Screen is taken successfully.
+2024-05-15 12:01:50: You change the lenguage: ESP
+2024-05-15 12:01:52: Perfil selected: -
+2024-05-15 12:01:52: Process about Perfil done.
+2024-05-15 12:01:52: Page Screen is taken successfully.
+2024-05-15 12:01:55: ---- * Seleccionaste Menu General * ----
+2024-05-15 12:01:55: Seleccionaste Menu principal: M&V Billing
+2024-05-15 12:01:58: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 12:02:03: Page Screen is taken successfully.
+2024-05-15 12:02:03: Select Option: Original Invoice
+2024-05-15 12:02:13: Page Screen is taken successfully.
+2024-05-15 12:02:13: You select (x) on this pop up
+2024-05-15 12:02:16: Page Screen is taken successfully.
+2024-05-15 12:02:16: Select the hamburger menu
+2024-05-15 12:02:18: Option Filters
+2024-05-15 12:02:23: Page Screen is taken successfully.
+2024-05-15 12:02:23: You select clear button.
+2024-05-15 12:02:24: Page Screen is taken successfully.
+2024-05-15 12:02:26: Seleccionaste flecha del desplegable Group: Group - Barclays
+2024-05-15 12:02:28: Field Group selected: Group - Barclays
+2024-05-15 12:02:31: Field Region selected: All
+2024-05-15 12:02:33: Seleccionaste flecha del desplegable -Country
+2024-05-15 12:02:34: Field Country selected: All
+2024-05-15 12:02:37: Seleccionaste flecha del desplegable -Bank
+2024-05-15 12:02:40: Field Bank selected: United Kingdom - Barclays BI
+2024-05-15 12:02:42: Seleccionaste flecha del desplegable -BankStatus
+2024-05-15 12:02:42: Field bankstatus selected: Inactive
+2024-05-15 12:02:44: Seleccionaste flecha del desplegable -Category
+2024-05-15 12:02:44: Field Category selected: ATM Service Fee
+2024-05-15 12:02:47: Seleccionaste flecha del desplegable -SubCategory
+2024-05-15 12:02:48: Field Subcategory selected: ATM Service Fee
+2024-05-15 12:02:48: You Send Fee code TEA1111
+2024-05-15 12:02:52: You Send Fee name TEA1111
+2024-05-15 12:02:58: You Send the field invoicenum: TEA1111
+2024-05-15 12:02:58: Page Screen is taken successfully.
+2024-05-15 12:02:58: You select buttom Apply
+2024-05-15 12:03:09: Page Screen is taken successfully.
+2024-05-15 12:03:13: <<<<<<< Log Started >>>>>>>
+2024-05-15 12:03:13: The Browser is up
+2024-05-15 12:03:20: Environment: QA
+2024-05-15 12:03:25: Click on Login Button
+2024-05-15 12:03:28: You send User: rosario.chale@intelica.com
+2024-05-15 12:03:28: You send Password: depapym
+2024-05-15 12:03:28: Page Screen is taken successfully.
+2024-05-15 12:03:38: Click on Generate Token
+2024-05-15 12:03:38: Page Screen is taken successfully.
+2024-05-15 12:03:43: You change the lenguage: ESP
+2024-05-15 12:03:45: Perfil selected: -
+2024-05-15 12:03:45: Process about Perfil done.
+2024-05-15 12:03:45: Page Screen is taken successfully.
+2024-05-15 12:03:47: ---- * Seleccionaste Menu General * ----
+2024-05-15 12:03:48: Seleccionaste Menu principal: M&V Billing
+2024-05-15 12:03:51: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 12:03:56: Page Screen is taken successfully.
+2024-05-15 12:03:56: Select Option: Original Invoice
+2024-05-15 12:04:06: Page Screen is taken successfully.
+2024-05-15 12:04:06: You select (x) on this pop up
+2024-05-15 12:04:08: Page Screen is taken successfully.
+2024-05-15 12:04:08: Select the hamburger menu
+2024-05-15 12:04:11: Option Filters
+2024-05-15 12:04:16: Page Screen is taken successfully.
+2024-05-15 12:04:16: You select clear button.
+2024-05-15 12:04:16: Page Screen is taken successfully.
+2024-05-15 12:04:18: Seleccionaste flecha del desplegable Group: Group - Barclays
+2024-05-15 12:04:21: Field Group selected: Group - Barclays
+2024-05-15 12:04:24: Field Region selected: Europe
+2024-05-15 12:04:26: Seleccionaste flecha del desplegable -Country
+2024-05-15 12:04:27: Field Country selected: Germany
+2024-05-15 12:04:30: Seleccionaste flecha del desplegable -Bank
+2024-05-15 12:04:33: Field Bank selected: Germany - Barclays BI
+2024-05-15 12:04:35: Seleccionaste flecha del desplegable -BankStatus
+2024-05-15 12:04:35: Field bankstatus selected: Active
+2024-05-15 12:04:37: Seleccionaste flecha del desplegable -Category
+2024-05-15 12:04:37: Field Category selected: Authorization Services
+2024-05-15 12:04:39: Seleccionaste flecha del desplegable -SubCategory
+2024-05-15 12:04:40: Field Subcategory selected: Other Authorization
+2024-05-15 12:04:41: You Send Fee code TEA2222
+2024-05-15 12:04:44: You Send Fee name TEA2222
+2024-05-15 12:04:50: You Send the field invoicenum: TEA2222
+2024-05-15 12:04:51: Page Screen is taken successfully.
+2024-05-15 12:04:51: You select buttom Apply
+2024-05-15 12:05:01: Page Screen is taken successfully.
+2024-05-15 12:05:05: <<<<<<< Log Started >>>>>>>
+2024-05-15 12:05:05: The Browser is up
+2024-05-15 12:05:11: Environment: QA
+2024-05-15 12:05:16: Click on Login Button
+2024-05-15 12:05:18: You send User: rosario.chale@intelica.com
+2024-05-15 12:05:18: You send Password: depapym
+2024-05-15 12:05:18: Page Screen is taken successfully.
+2024-05-15 12:05:28: Click on Generate Token
+2024-05-15 12:05:29: Page Screen is taken successfully.
+2024-05-15 12:05:34: You change the lenguage: ESP
+2024-05-15 12:05:36: Perfil selected: -
+2024-05-15 12:05:36: Process about Perfil done.
+2024-05-15 12:05:36: Page Screen is taken successfully.
+2024-05-15 12:05:38: ---- * Seleccionaste Menu General * ----
+2024-05-15 12:05:38: Seleccionaste Menu principal: M&V Billing
+2024-05-15 12:05:41: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 12:05:47: Page Screen is taken successfully.
+2024-05-15 12:05:47: Select Option: Original Invoice
+2024-05-15 12:05:57: Page Screen is taken successfully.
+2024-05-15 12:05:57: You select (x) on this pop up
+2024-05-15 12:05:59: Page Screen is taken successfully.
+2024-05-15 12:05:59: Select the hamburger menu
+2024-05-15 12:06:01: Option Filters
+2024-05-15 12:06:07: Page Screen is taken successfully.
+2024-05-15 12:06:07: You select clear button.
+2024-05-15 12:06:07: Page Screen is taken successfully.
+2024-05-15 12:06:10: Seleccionaste flecha del desplegable Group: Group - Barclays
+2024-05-15 12:06:12: Field Group selected: Group - Barclays
+2024-05-15 12:06:15: Field Region selected: Europe SEPA
+2024-05-15 12:06:17: Seleccionaste flecha del desplegable -Country
+2024-05-15 12:06:18: Field Country selected: United Kingdom
+2024-05-15 12:06:21: Seleccionaste flecha del desplegable -Bank
+2024-05-15 12:06:24: Field Bank selected: United Kingdom - Barclays BIP
+2024-05-15 12:06:26: Seleccionaste flecha del desplegable -BankStatus
+2024-05-15 12:06:26: Field bankstatus selected: All
+2024-05-15 12:06:29: Seleccionaste flecha del desplegable -Category
+2024-05-15 12:06:30: Field Category selected: Boletín
+2024-05-15 12:06:32: Seleccionaste flecha del desplegable -SubCategory
+2024-05-15 12:06:33: Field Subcategory selected: FD Boletín
+2024-05-15 12:06:33: You Send Fee code TEA3333
+2024-05-15 12:06:37: You Send Fee name TEA3333
+2024-05-15 12:06:43: You Send the field invoicenum: TEA3333
+2024-05-15 12:06:43: Page Screen is taken successfully.
+2024-05-15 12:06:43: You select buttom Apply
+2024-05-15 12:06:54: Page Screen is taken successfully.
+2024-05-15 12:08:13: <<<<<<< Log Started >>>>>>>
+2024-05-15 12:08:13: The Browser is up
+2024-05-15 12:08:20: Environment: QA
+2024-05-15 12:08:25: Click on Login Button
+2024-05-15 12:08:27: You send User: rosario.chale@intelica.com
+2024-05-15 12:08:28: You send Password: depapym
+2024-05-15 12:08:28: Page Screen is taken successfully.
+2024-05-15 12:08:38: Click on Generate Token
+2024-05-15 12:08:38: Page Screen is taken successfully.
+2024-05-15 12:08:43: You change the lenguage: ESP
+2024-05-15 12:08:45: Perfil selected: -
+2024-05-15 12:08:45: Process about Perfil done.
+2024-05-15 12:08:45: Page Screen is taken successfully.
+2024-05-15 12:08:48: ---- * Seleccionaste Menu General * ----
+2024-05-15 12:08:48: Seleccionaste Menu principal: M&V Billing
+2024-05-15 12:08:51: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 12:08:56: Page Screen is taken successfully.
+2024-05-15 12:08:56: Select Option: Original Invoice
+2024-05-15 12:09:07: Page Screen is taken successfully.
+2024-05-15 12:18:08: <<<<<<< Log Started >>>>>>>
+2024-05-15 12:18:08: The Browser is up
+2024-05-15 12:18:16: Environment: QA
+2024-05-15 12:18:21: Click on Login Button
+2024-05-15 12:18:23: You send User: rosario.chale@intelica.com
+2024-05-15 12:18:23: You send Password: depapym
+2024-05-15 12:18:23: Page Screen is taken successfully.
+2024-05-15 12:18:33: Click on Generate Token
+2024-05-15 12:18:34: Page Screen is taken successfully.
+2024-05-15 12:18:39: You change the lenguage: ESP
+2024-05-15 12:18:41: Perfil selected: -
+2024-05-15 12:18:41: Process about Perfil done.
+2024-05-15 12:18:42: Page Screen is taken successfully.
+2024-05-15 12:18:44: ---- * Seleccionaste Menu General * ----
+2024-05-15 12:18:44: Seleccionaste Menu principal: M&V Billing
+2024-05-15 12:18:47: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 12:18:52: Page Screen is taken successfully.
+2024-05-15 12:18:52: Select Option: Original Invoice
+2024-05-15 12:19:03: Page Screen is taken successfully.
+2024-05-15 12:19:03: You select (x) on this pop up
+2024-05-15 12:19:05: Page Screen is taken successfully.
+2024-05-15 12:19:05: Select the hamburger menu
+2024-05-15 12:19:07: Option Filters
+2024-05-15 12:19:13: Page Screen is taken successfully.
+2024-05-15 12:19:13: You select clear button.
+2024-05-15 12:19:13: Page Screen is taken successfully.
+2024-05-15 12:19:15: Seleccionaste flecha del desplegable Group: Group - Barclays
+2024-05-15 12:19:18: Field Group selected: Group - Barclays
+2024-05-15 12:19:21: Field Region selected: All
+2024-05-15 12:19:23: Seleccionaste flecha del desplegable -Country
+2024-05-15 12:19:24: Field Country selected: All
+2024-05-15 12:19:27: Seleccionaste flecha del desplegable -Bank
+2024-05-15 12:19:30: Field Bank selected: United Kingdom - Barclays BI
+2024-05-15 12:19:32: Seleccionaste flecha del desplegable -BankStatus
+2024-05-15 12:19:32: Field bankstatus selected: Inactive
+2024-05-15 12:19:34: Seleccionaste flecha del desplegable -Category
+2024-05-15 12:19:34: Field Category selected: ATM Service Fee
+2024-05-15 12:19:37: Seleccionaste flecha del desplegable -SubCategory
+2024-05-15 12:19:38: Field Subcategory selected: ATM Service Fee
+2024-05-15 12:19:38: You Send Fee code TEA1111
+2024-05-15 12:19:41: You Send Fee name TEA1111
+2024-05-15 12:19:48: You Send the field invoicenum: TEA1111
+2024-05-15 12:19:48: Page Screen is taken successfully.
+2024-05-15 12:19:48: You select buttom Apply
+2024-05-15 12:19:58: Page Screen is taken successfully.
+2024-05-15 12:20:03: <<<<<<< Log Started >>>>>>>
+2024-05-15 12:20:03: The Browser is up
+2024-05-15 12:20:09: Environment: QA
+2024-05-15 12:20:14: Click on Login Button
+2024-05-15 12:20:17: You send User: rosario.chale@intelica.com
+2024-05-15 12:20:17: You send Password: depapym
+2024-05-15 12:20:17: Page Screen is taken successfully.
+2024-05-15 12:20:27: Click on Generate Token
+2024-05-15 12:20:27: Page Screen is taken successfully.
+2024-05-15 12:20:34: You change the lenguage: ESP
+2024-05-15 12:20:36: Perfil selected: -
+2024-05-15 12:20:36: Process about Perfil done.
+2024-05-15 12:20:36: Page Screen is taken successfully.
+2024-05-15 12:20:39: ---- * Seleccionaste Menu General * ----
+2024-05-15 12:20:39: Seleccionaste Menu principal: M&V Billing
+2024-05-15 12:20:42: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 12:20:47: Page Screen is taken successfully.
+2024-05-15 12:20:47: Select Option: Original Invoice
+2024-05-15 12:20:58: Page Screen is taken successfully.
+2024-05-15 12:20:58: You select (x) on this pop up
+2024-05-15 12:21:00: Page Screen is taken successfully.
+2024-05-15 12:21:00: Select the hamburger menu
+2024-05-15 12:21:02: Option Filters
+2024-05-15 12:21:08: Page Screen is taken successfully.
+2024-05-15 12:21:08: You select clear button.
+2024-05-15 12:21:08: Page Screen is taken successfully.
+2024-05-15 12:21:10: Seleccionaste flecha del desplegable Group: Group - Barclays
+2024-05-15 12:21:13: Field Group selected: Group - Barclays
+2024-05-15 12:21:16: Field Region selected: Europe
+2024-05-15 12:21:18: Seleccionaste flecha del desplegable -Country
+2024-05-15 12:21:19: Field Country selected: Germany
+2024-05-15 12:21:21: Seleccionaste flecha del desplegable -Bank
+2024-05-15 12:21:25: Field Bank selected: Germany - Barclays BI
+2024-05-15 12:21:27: Seleccionaste flecha del desplegable -BankStatus
+2024-05-15 12:21:27: Field bankstatus selected: Active
+2024-05-15 12:21:29: Seleccionaste flecha del desplegable -Category
+2024-05-15 12:21:29: Field Category selected: Authorization Services
+2024-05-15 12:21:32: Seleccionaste flecha del desplegable -SubCategory
+2024-05-15 12:21:33: Field Subcategory selected: Other Authorization
+2024-05-15 12:21:33: You Send Fee code TEA2222
+2024-05-15 12:21:36: You Send Fee name TEA2222
+2024-05-15 12:21:42: You Send the field invoicenum: TEA2222
+2024-05-15 12:21:43: Page Screen is taken successfully.
+2024-05-15 12:21:43: You select buttom Apply
+2024-05-15 12:21:53: Page Screen is taken successfully.
+2024-05-15 12:21:58: <<<<<<< Log Started >>>>>>>
+2024-05-15 12:21:58: The Browser is up
+2024-05-15 12:22:04: Environment: QA
+2024-05-15 12:22:09: Click on Login Button
+2024-05-15 12:22:11: You send User: rosario.chale@intelica.com
+2024-05-15 12:22:11: You send Password: depapym
+2024-05-15 12:22:11: Page Screen is taken successfully.
+2024-05-15 12:22:21: Click on Generate Token
+2024-05-15 12:22:22: Page Screen is taken successfully.
+2024-05-15 12:22:31: You change the lenguage: ESP
+2024-05-15 12:22:33: Perfil selected: -
+2024-05-15 12:22:33: Process about Perfil done.
+2024-05-15 12:22:34: Page Screen is taken successfully.
+2024-05-15 12:22:36: ---- * Seleccionaste Menu General * ----
+2024-05-15 12:22:36: Seleccionaste Menu principal: M&V Billing
+2024-05-15 12:22:39: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 12:22:44: Page Screen is taken successfully.
+2024-05-15 12:22:44: Select Option: Original Invoice
+2024-05-15 12:22:55: Page Screen is taken successfully.
+2024-05-15 12:22:55: You select (x) on this pop up
+2024-05-15 12:22:57: Page Screen is taken successfully.
+2024-05-15 12:22:57: Select the hamburger menu
+2024-05-15 12:22:59: Option Filters
+2024-05-15 12:23:04: Page Screen is taken successfully.
+2024-05-15 12:23:05: You select clear button.
+2024-05-15 12:23:05: Page Screen is taken successfully.
+2024-05-15 12:23:07: Seleccionaste flecha del desplegable Group: Group - Barclays
+2024-05-15 12:23:10: Field Group selected: Group - Barclays
+2024-05-15 12:23:13: Field Region selected: Europe SEPA
+2024-05-15 12:23:15: Seleccionaste flecha del desplegable -Country
+2024-05-15 12:23:16: Field Country selected: United Kingdom
+2024-05-15 12:23:19: Seleccionaste flecha del desplegable -Bank
+2024-05-15 12:23:22: Field Bank selected: United Kingdom - Barclays BIP
+2024-05-15 12:23:24: Seleccionaste flecha del desplegable -BankStatus
+2024-05-15 12:23:24: Field bankstatus selected: All
+2024-05-15 12:23:27: Seleccionaste flecha del desplegable -Category
+2024-05-15 12:23:28: Field Category selected: Boletín
+2024-05-15 12:23:30: Seleccionaste flecha del desplegable -SubCategory
+2024-05-15 12:23:31: Field Subcategory selected: FD Boletín
+2024-05-15 12:23:31: You Send Fee code TEA3333
+2024-05-15 12:23:35: You Send Fee name TEA3333
+2024-05-15 12:23:41: You Send the field invoicenum: TEA3333
+2024-05-15 12:23:41: Page Screen is taken successfully.
+2024-05-15 12:23:41: You select buttom Apply
+2024-05-15 12:23:52: Page Screen is taken successfully.
+2024-05-15 14:50:52: <<<<<<< Log Started >>>>>>>
+2024-05-15 14:50:52: The Browser is up
+2024-05-15 14:50:57: Environment: QA
+2024-05-15 14:51:02: Click on Login Button
+2024-05-15 14:51:05: You send User: rosario.chale@intelica.com
+2024-05-15 14:51:05: You send Password: depapym
+2024-05-15 14:51:05: Page Screen is taken successfully.
+2024-05-15 14:51:15: Click on Generate Token
+2024-05-15 14:51:15: Page Screen is taken successfully.
+2024-05-15 14:51:19: You change the lenguage: ESP
+2024-05-15 14:51:21: Perfil selected: -
+2024-05-15 14:51:21: Process about Perfil done.
+2024-05-15 14:51:21: Page Screen is taken successfully.
+2024-05-15 14:51:23: ---- * Seleccionaste Menu General * ----
+2024-05-15 14:51:23: Seleccionaste Menu principal: M&V Billing
+2024-05-15 14:51:27: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 14:51:32: Page Screen is taken successfully.
+2024-05-15 14:51:32: Select Option: Original Invoice
+2024-05-15 14:51:42: Page Screen is taken successfully.
+2024-05-15 14:51:42: You select (x) on this pop up
+2024-05-15 14:51:44: Page Screen is taken successfully.
+2024-05-15 14:51:44: Select the hamburger menu
+2024-05-15 14:51:47: Option Filters
+2024-05-15 14:51:52: Page Screen is taken successfully.
+2024-05-15 14:51:52: You select clear button.
+2024-05-15 14:51:52: Page Screen is taken successfully.
+2024-05-15 14:51:54: Seleccionaste flecha del desplegable Group: Group - Barclays
+2024-05-15 14:51:57: Field Group selected: Group - Barclays
+2024-05-15 14:52:00: Field Region selected: All
+2024-05-15 14:52:02: Seleccionaste flecha del desplegable -Country
+2024-05-15 14:52:03: Field Country selected: All
+2024-05-15 14:52:05: Seleccionaste flecha del desplegable -Bank
+2024-05-15 14:52:09: Field Bank selected: United Kingdom - Barclays BI
+2024-05-15 14:52:11: Seleccionaste flecha del desplegable -BankStatus
+2024-05-15 14:52:11: Field bankstatus selected: Inactive
+2024-05-15 14:52:13: Seleccionaste flecha del desplegable -Category
+2024-05-15 14:52:13: Field Category selected: ATM Service Fee
+2024-05-15 14:52:15: Seleccionaste flecha del desplegable -SubCategory
+2024-05-15 14:52:16: Field Subcategory selected: ATM Service Fee
+2024-05-15 14:52:17: You Send Fee code TEA1111
+2024-05-15 14:52:20: You Send Fee name TEA1111
+2024-05-15 14:52:26: You Send the field invoicenum: TEA1111
+2024-05-15 14:52:27: Page Screen is taken successfully.
+2024-05-15 14:52:27: You select buttom Apply
+2024-05-15 14:52:37: Page Screen is taken successfully.
+2024-05-15 14:52:43: <<<<<<< Log Started >>>>>>>
+2024-05-15 14:52:43: The Browser is up
+2024-05-15 14:52:53: Environment: QA
+2024-05-15 14:52:58: Click on Login Button
+2024-05-15 14:53:00: You send User: rosario.chale@intelica.com
+2024-05-15 14:53:00: You send Password: depapym
+2024-05-15 14:53:00: Page Screen is taken successfully.
+2024-05-15 14:53:10: Click on Generate Token
+2024-05-15 14:53:11: Page Screen is taken successfully.
+2024-05-15 14:53:16: You change the lenguage: ESP
+2024-05-15 14:53:18: Perfil selected: -
+2024-05-15 14:53:18: Process about Perfil done.
+2024-05-15 14:53:18: Page Screen is taken successfully.
+2024-05-15 14:53:20: ---- * Seleccionaste Menu General * ----
+2024-05-15 14:53:20: Seleccionaste Menu principal: M&V Billing
+2024-05-15 14:53:23: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 14:53:28: Page Screen is taken successfully.
+2024-05-15 14:53:29: Select Option: Original Invoice
+2024-05-15 14:53:39: Page Screen is taken successfully.
+2024-05-15 14:53:39: You select (x) on this pop up
+2024-05-15 14:53:41: Page Screen is taken successfully.
+2024-05-15 14:53:41: Select the hamburger menu
+2024-05-15 14:53:43: Option Filters
+2024-05-15 14:53:48: Page Screen is taken successfully.
+2024-05-15 14:53:49: You select clear button.
+2024-05-15 14:53:49: Page Screen is taken successfully.
+2024-05-15 14:53:51: Seleccionaste flecha del desplegable Group: Group - Barclays
+2024-05-15 14:53:53: Field Group selected: Group - Barclays
+2024-05-15 14:53:56: Field Region selected: Europe
+2024-05-15 14:53:59: Seleccionaste flecha del desplegable -Country
+2024-05-15 14:54:00: Field Country selected: Germany
+2024-05-15 14:54:02: Seleccionaste flecha del desplegable -Bank
+2024-05-15 14:54:05: Field Bank selected: Germany - Barclays BI
+2024-05-15 14:54:08: Seleccionaste flecha del desplegable -BankStatus
+2024-05-15 14:54:08: Field bankstatus selected: Active
+2024-05-15 14:54:10: Seleccionaste flecha del desplegable -Category
+2024-05-15 14:54:10: Field Category selected: Authorization Services
+2024-05-15 14:54:12: Seleccionaste flecha del desplegable -SubCategory
+2024-05-15 14:54:13: Field Subcategory selected: Other Authorization
+2024-05-15 14:54:13: You Send Fee code TEA2222
+2024-05-15 14:54:17: You Send Fee name TEA2222
+2024-05-15 14:54:23: You Send the field invoicenum: TEA2222
+2024-05-15 14:54:23: Page Screen is taken successfully.
+2024-05-15 14:54:24: You select buttom Apply
+2024-05-15 14:54:34: Page Screen is taken successfully.
+2024-05-15 14:54:38: <<<<<<< Log Started >>>>>>>
+2024-05-15 14:54:38: The Browser is up
+2024-05-15 14:54:46: Environment: QA
+2024-05-15 14:54:51: Click on Login Button
+2024-05-15 14:54:54: You send User: rosario.chale@intelica.com
+2024-05-15 14:54:54: You send Password: depapym
+2024-05-15 14:54:54: Page Screen is taken successfully.
+2024-05-15 14:55:04: Click on Generate Token
+2024-05-15 14:56:36: <<<<<<< Log Started >>>>>>>
+2024-05-15 14:56:36: The Browser is up
+2024-05-15 14:56:45: Environment: QA
+2024-05-15 14:56:50: Click on Login Button
+2024-05-15 14:56:53: You send User: rosario.chale@intelica.com
+2024-05-15 14:56:53: You send Password: depapym
+2024-05-15 14:56:53: Page Screen is taken successfully.
+2024-05-15 14:57:03: Click on Generate Token
+2024-05-15 14:57:03: Page Screen is taken successfully.
+2024-05-15 14:57:16: You change the lenguage: ESP
+2024-05-15 14:57:18: Perfil selected: -
+2024-05-15 14:57:18: Process about Perfil done.
+2024-05-15 14:57:18: Page Screen is taken successfully.
+2024-05-15 14:57:20: ---- * Seleccionaste Menu General * ----
+2024-05-15 14:57:20: Seleccionaste Menu principal: M&V Billing
+2024-05-15 14:57:23: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 14:57:29: Page Screen is taken successfully.
+2024-05-15 14:57:29: Select Option: Original Invoice
+2024-05-15 14:59:24: <<<<<<< Log Started >>>>>>>
+2024-05-15 14:59:24: The Browser is up
+2024-05-15 14:59:33: Environment: QA
+2024-05-15 14:59:38: Click on Login Button
+2024-05-15 14:59:40: You send User: rosario.chale@intelica.com
+2024-05-15 14:59:40: You send Password: depapym
+2024-05-15 14:59:41: Page Screen is taken successfully.
+2024-05-15 14:59:51: Click on Generate Token
+2024-05-15 14:59:51: Page Screen is taken successfully.
+2024-05-15 14:59:56: You change the lenguage: ESP
+2024-05-15 14:59:58: Perfil selected: -
+2024-05-15 14:59:58: Process about Perfil done.
+2024-05-15 14:59:59: Page Screen is taken successfully.
+2024-05-15 15:00:01: ---- * Seleccionaste Menu General * ----
+2024-05-15 15:00:01: Seleccionaste Menu principal: M&V Billing
+2024-05-15 15:00:04: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 15:00:06: Page Screen is taken successfully.
+2024-05-15 15:00:06: Select Option: Original Invoice
+2024-05-15 15:00:17: Page Screen is taken successfully.
+2024-05-15 15:00:17: You select (x) on this pop up
+2024-05-15 15:00:19: Page Screen is taken successfully.
+2024-05-15 15:00:19: Select the hamburger menu
+2024-05-15 15:00:21: Option Filters
+2024-05-15 15:00:26: Page Screen is taken successfully.
+2024-05-15 15:00:27: You select clear button.
+2024-05-15 15:00:27: Page Screen is taken successfully.
+2024-05-15 15:00:29: Seleccionaste flecha del desplegable Group: Group - Barclays
+2024-05-15 15:00:31: Field Group selected: Group - Barclays
+2024-05-15 15:00:35: Field Region selected: All
+2024-05-15 15:00:37: Seleccionaste flecha del desplegable -Country
+2024-05-15 15:00:38: Field Country selected: All
+2024-05-15 15:00:40: Seleccionaste flecha del desplegable -Bank
+2024-05-15 15:00:43: Field Bank selected: United Kingdom - Barclays BI
+2024-05-15 15:00:46: Seleccionaste flecha del desplegable -BankStatus
+2024-05-15 15:00:46: Field bankstatus selected: Inactive
+2024-05-15 15:00:48: Seleccionaste flecha del desplegable -Category
+2024-05-15 15:00:48: Field Category selected: ATM Service Fee
+2024-05-15 15:00:50: Seleccionaste flecha del desplegable -SubCategory
+2024-05-15 15:00:51: Field Subcategory selected: ATM Service Fee
+2024-05-15 15:00:51: You Send Fee code TEA1111
+2024-05-15 15:00:55: You Send Fee name TEA1111
+2024-05-15 15:01:01: You Send the field invoicenum: TEA1111
+2024-05-15 15:01:01: Page Screen is taken successfully.
+2024-05-15 15:01:01: You select buttom Apply
+2024-05-15 15:01:12: Page Screen is taken successfully.
+2024-05-15 15:01:17: <<<<<<< Log Started >>>>>>>
+2024-05-15 15:01:17: The Browser is up
+2024-05-15 15:01:25: Environment: QA
+2024-05-15 15:01:30: Click on Login Button
+2024-05-15 15:01:32: You send User: rosario.chale@intelica.com
+2024-05-15 15:01:32: You send Password: depapym
+2024-05-15 15:01:32: Page Screen is taken successfully.
+2024-05-15 15:01:42: Click on Generate Token
+2024-05-15 15:01:52: <<<<<<< Log Started >>>>>>>
+2024-05-15 15:01:52: The Browser is up
+2024-05-15 15:02:53: <<<<<<< Log Started >>>>>>>
+2024-05-15 15:02:53: The Browser is up
+2024-05-15 15:03:00: Environment: QA
+2024-05-15 15:03:05: Click on Login Button
+2024-05-15 15:03:07: You send User: rosario.chale@intelica.com
+2024-05-15 15:03:07: You send Password: depapym
+2024-05-15 15:03:07: Page Screen is taken successfully.
+2024-05-15 15:03:17: Click on Generate Token
+2024-05-15 15:03:18: Page Screen is taken successfully.
+2024-05-15 15:03:22: You change the lenguage: ESP
+2024-05-15 15:03:24: Perfil selected: -
+2024-05-15 15:03:24: Process about Perfil done.
+2024-05-15 15:03:24: Page Screen is taken successfully.
+2024-05-15 15:03:26: ---- * Seleccionaste Menu General * ----
+2024-05-15 15:03:26: Seleccionaste Menu principal: M&V Billing
+2024-05-15 15:03:29: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 15:03:32: Page Screen is taken successfully.
+2024-05-15 15:03:32: Select Option: Original Invoice
+2024-05-15 15:03:42: Page Screen is taken successfully.
+2024-05-15 15:03:42: You select (x) on this pop up
+2024-05-15 15:03:44: Page Screen is taken successfully.
+2024-05-15 15:03:44: Select the hamburger menu
+2024-05-15 15:03:46: Option Filters
+2024-05-15 15:03:52: Page Screen is taken successfully.
+2024-05-15 15:03:52: You select clear button.
+2024-05-15 15:03:52: Page Screen is taken successfully.
+2024-05-15 15:03:54: Seleccionaste flecha del desplegable Group: Group - Barclays
+2024-05-15 15:03:56: Field Group selected: Group - Barclays
+2024-05-15 15:04:00: Field Region selected: All
+2024-05-15 15:04:02: Seleccionaste flecha del desplegable -Country
+2024-05-15 15:04:03: Field Country selected: All
+2024-05-15 15:04:05: Seleccionaste flecha del desplegable -Bank
+2024-05-15 15:04:08: Field Bank selected: United Kingdom - Barclays BI
+2024-05-15 15:04:11: Seleccionaste flecha del desplegable -BankStatus
+2024-05-15 15:04:11: Field bankstatus selected: Inactive
+2024-05-15 15:04:13: Seleccionaste flecha del desplegable -Category
+2024-05-15 15:04:13: Field Category selected: ATM Service Fee
+2024-05-15 15:04:15: Seleccionaste flecha del desplegable -SubCategory
+2024-05-15 15:04:16: Field Subcategory selected: ATM Service Fee
+2024-05-15 15:04:17: You Send Fee code TEA1111
+2024-05-15 15:04:20: You Send Fee name TEA1111
+2024-05-15 15:04:26: You Send the field invoicenum: TEA1111
+2024-05-15 15:04:26: Page Screen is taken successfully.
+2024-05-15 15:04:27: You select buttom Apply
+2024-05-15 15:04:37: Page Screen is taken successfully.
+2024-05-15 15:04:42: <<<<<<< Log Started >>>>>>>
+2024-05-15 15:04:42: The Browser is up
+2024-05-15 15:04:49: Environment: QA
+2024-05-15 15:04:54: Click on Login Button
+2024-05-15 15:04:56: You send User: rosario.chale@intelica.com
+2024-05-15 15:04:56: You send Password: depapym
+2024-05-15 15:04:56: Page Screen is taken successfully.
+2024-05-15 15:05:07: Click on Generate Token
+2024-05-15 15:05:07: Page Screen is taken successfully.
+2024-05-15 15:05:14: You change the lenguage: ESP
+2024-05-15 15:05:16: Perfil selected: -
+2024-05-15 15:05:16: Process about Perfil done.
+2024-05-15 15:05:16: Page Screen is taken successfully.
+2024-05-15 15:05:18: ---- * Seleccionaste Menu General * ----
+2024-05-15 15:05:18: Seleccionaste Menu principal: M&V Billing
+2024-05-15 15:05:21: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 15:05:23: Page Screen is taken successfully.
+2024-05-15 15:05:24: Select Option: Original Invoice
+2024-05-15 15:05:34: Page Screen is taken successfully.
+2024-05-15 15:05:34: You select (x) on this pop up
+2024-05-15 15:05:36: Page Screen is taken successfully.
+2024-05-15 15:05:36: Select the hamburger menu
+2024-05-15 15:05:38: Option Filters
+2024-05-15 15:05:43: Page Screen is taken successfully.
+2024-05-15 15:05:44: You select clear button.
+2024-05-15 15:05:44: Page Screen is taken successfully.
+2024-05-15 15:05:46: Seleccionaste flecha del desplegable Group: Group - Barclays
+2024-05-15 15:05:48: Field Group selected: Group - Barclays
+2024-05-15 15:05:52: Field Region selected: Europe
+2024-05-15 15:05:54: Seleccionaste flecha del desplegable -Country
+2024-05-15 15:05:55: Field Country selected: Germany
+2024-05-15 15:05:57: Seleccionaste flecha del desplegable -Bank
+2024-05-15 15:06:00: Field Bank selected: Germany - Barclays BI
+2024-05-15 15:06:03: Seleccionaste flecha del desplegable -BankStatus
+2024-05-15 15:06:03: Field bankstatus selected: Active
+2024-05-15 15:06:05: Seleccionaste flecha del desplegable -Category
+2024-05-15 15:06:05: Field Category selected: Authorization Services
+2024-05-15 15:06:07: Seleccionaste flecha del desplegable -SubCategory
+2024-05-15 15:06:08: Field Subcategory selected: Other Authorization
+2024-05-15 15:06:09: You Send Fee code TEA2222
+2024-05-15 15:06:12: You Send Fee name TEA2222
+2024-05-15 15:06:18: You Send the field invoicenum: TEA2222
+2024-05-15 15:06:18: Page Screen is taken successfully.
+2024-05-15 15:06:19: You select buttom Apply
+2024-05-15 15:06:29: Page Screen is taken successfully.
+2024-05-15 15:06:33: <<<<<<< Log Started >>>>>>>
+2024-05-15 15:06:33: The Browser is up
+2024-05-15 15:06:40: Environment: QA
+2024-05-15 15:06:45: Click on Login Button
+2024-05-15 15:06:47: You send User: rosario.chale@intelica.com
+2024-05-15 15:06:47: You send Password: depapym
+2024-05-15 15:06:47: Page Screen is taken successfully.
+2024-05-15 15:06:58: Click on Generate Token
+2024-05-15 15:06:58: Page Screen is taken successfully.
+2024-05-15 15:07:05: You change the lenguage: ESP
+2024-05-15 15:07:07: Perfil selected: -
+2024-05-15 15:07:07: Process about Perfil done.
+2024-05-15 15:07:07: Page Screen is taken successfully.
+2024-05-15 15:07:09: ---- * Seleccionaste Menu General * ----
+2024-05-15 15:07:09: Seleccionaste Menu principal: M&V Billing
+2024-05-15 15:07:13: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 15:07:15: Page Screen is taken successfully.
+2024-05-15 15:07:15: Select Option: Original Invoice
+2024-05-15 15:07:25: Page Screen is taken successfully.
+2024-05-15 15:39:05: <<<<<<< Log Started >>>>>>>
+2024-05-15 15:39:05: The Browser is up
+2024-05-15 15:39:13: Environment: QA
+2024-05-15 15:39:18: Click on Login Button
+2024-05-15 15:39:20: You send User: rosario.chale@intelica.com
+2024-05-15 15:39:20: You send Password: depapym
+2024-05-15 15:39:21: Page Screen is taken successfully.
+2024-05-15 15:39:31: Click on Generate Token
+2024-05-15 15:39:31: Page Screen is taken successfully.
+2024-05-15 15:39:38: You change the lenguage: ESP
+2024-05-15 15:39:41: Perfil selected: -
+2024-05-15 15:39:41: Process about Perfil done.
+2024-05-15 15:39:41: Page Screen is taken successfully.
+2024-05-15 15:39:43: ---- * Seleccionaste Menu General * ----
+2024-05-15 15:39:43: Seleccionaste Menu principal: M&V Billing
+2024-05-15 15:39:46: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 15:39:48: Page Screen is taken successfully.
+2024-05-15 15:39:49: Select Option: Original Invoice
+2024-05-15 15:39:59: Page Screen is taken successfully.
+2024-05-15 15:39:59: You select (x) on this pop up
+2024-05-15 15:40:01: Page Screen is taken successfully.
+2024-05-15 15:40:01: Select the hamburger menu
+2024-05-15 15:40:03: Option Filters
+2024-05-15 15:40:09: Page Screen is taken successfully.
+2024-05-15 15:40:09: You select clear button.
+2024-05-15 15:40:09: Page Screen is taken successfully.
+2024-05-15 15:40:12: Seleccionaste flecha del desplegable Group: Group - Barclays
+2024-05-15 15:40:14: Field Group selected: Group - Barclays
+2024-05-15 15:40:17: Field Region selected: All
+2024-05-15 15:40:19: Seleccionaste flecha del desplegable -Country
+2024-05-15 15:40:20: Field Country selected: All
+2024-05-15 15:40:23: Seleccionaste flecha del desplegable -Bank
+2024-05-15 15:40:26: Field Bank selected: United Kingdom - Barclays BI
+2024-05-15 15:40:28: Seleccionaste flecha del desplegable -BankStatus
+2024-05-15 15:40:28: Field bankstatus selected: Inactive
+2024-05-15 15:40:31: Seleccionaste flecha del desplegable -Category
+2024-05-15 15:40:31: Field Category selected: ATM Service Fee
+2024-05-15 15:40:33: Seleccionaste flecha del desplegable -SubCategory
+2024-05-15 15:40:34: Field Subcategory selected: ATM Service Fee
+2024-05-15 15:40:34: You Send Fee code TEA1111
+2024-05-15 15:40:38: You Send Fee name TEA1111
+2024-05-15 15:40:44: You Send the field invoicenum: TEA1111
+2024-05-15 15:40:44: Page Screen is taken successfully.
+2024-05-15 15:40:44: You select buttom Apply
+2024-05-15 15:40:55: Page Screen is taken successfully.
+2024-05-15 15:40:59: <<<<<<< Log Started >>>>>>>
+2024-05-15 15:40:59: The Browser is up
+2024-05-15 15:41:06: Environment: QA
+2024-05-15 15:41:11: Click on Login Button
+2024-05-15 15:41:13: You send User: rosario.chale@intelica.com
+2024-05-15 15:41:14: You send Password: depapym
+2024-05-15 15:41:14: Page Screen is taken successfully.
+2024-05-15 15:41:24: Click on Generate Token
+2024-05-15 15:41:24: Page Screen is taken successfully.
+2024-05-15 15:41:31: You change the lenguage: ESP
+2024-05-15 15:41:33: Perfil selected: -
+2024-05-15 15:41:33: Process about Perfil done.
+2024-05-15 15:41:33: Page Screen is taken successfully.
+2024-05-15 15:41:35: ---- * Seleccionaste Menu General * ----
+2024-05-15 15:41:35: Seleccionaste Menu principal: M&V Billing
+2024-05-15 15:41:39: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 15:41:41: Page Screen is taken successfully.
+2024-05-15 15:41:41: Select Option: Original Invoice
+2024-05-15 15:41:51: Page Screen is taken successfully.
+2024-05-15 15:41:51: You select (x) on this pop up
+2024-05-15 15:41:53: Page Screen is taken successfully.
+2024-05-15 15:41:53: Select the hamburger menu
+2024-05-15 15:41:55: Option Filters
+2024-05-15 15:42:01: Page Screen is taken successfully.
+2024-05-15 15:42:01: You select clear button.
+2024-05-15 15:42:01: Page Screen is taken successfully.
+2024-05-15 15:42:03: Seleccionaste flecha del desplegable Group: Group - Barclays
+2024-05-15 15:42:05: Field Group selected: Group - Barclays
+2024-05-15 15:42:09: Field Region selected: Europe
+2024-05-15 15:42:11: Seleccionaste flecha del desplegable -Country
+2024-05-15 15:42:12: Field Country selected: Germany
+2024-05-15 15:42:14: Seleccionaste flecha del desplegable -Bank
+2024-05-15 15:42:18: Field Bank selected: Germany - Barclays BI
+2024-05-15 15:42:20: Seleccionaste flecha del desplegable -BankStatus
+2024-05-15 15:42:20: Field bankstatus selected: Active
+2024-05-15 15:42:22: Seleccionaste flecha del desplegable -Category
+2024-05-15 15:42:22: Field Category selected: Authorization Services
+2024-05-15 15:42:24: Seleccionaste flecha del desplegable -SubCategory
+2024-05-15 15:42:25: Field Subcategory selected: Other Authorization
+2024-05-15 15:42:26: You Send Fee code TEA2222
+2024-05-15 15:42:29: You Send Fee name TEA2222
+2024-05-15 15:42:35: You Send the field invoicenum: TEA2222
+2024-05-15 15:42:36: Page Screen is taken successfully.
+2024-05-15 15:42:36: You select buttom Apply
+2024-05-15 15:42:46: Page Screen is taken successfully.
+2024-05-15 15:42:50: <<<<<<< Log Started >>>>>>>
+2024-05-15 15:42:50: The Browser is up
+2024-05-15 15:43:01: Environment: QA
+2024-05-15 15:43:06: Click on Login Button
+2024-05-15 15:43:08: You send User: rosario.chale@intelica.com
+2024-05-15 15:43:08: You send Password: depapym
+2024-05-15 15:43:09: Page Screen is taken successfully.
+2024-05-15 15:43:19: Click on Generate Token
+2024-05-15 15:43:26: Page Screen is taken successfully.
+2024-05-15 15:43:54: You change the lenguage: ESP
+2024-05-15 15:43:56: Perfil selected: -
+2024-05-15 15:43:56: Process about Perfil done.
+2024-05-15 15:43:56: Page Screen is taken successfully.
+2024-05-15 15:43:58: ---- * Seleccionaste Menu General * ----
+2024-05-15 15:43:58: Seleccionaste Menu principal: M&V Billing
+2024-05-15 15:44:02: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 15:44:04: Page Screen is taken successfully.
+2024-05-15 15:44:04: Select Option: Original Invoice
+2024-05-15 15:44:14: Page Screen is taken successfully.
+2024-05-15 15:44:14: You select (x) on this pop up
+2024-05-15 15:44:16: Page Screen is taken successfully.
+2024-05-15 15:44:16: Select the hamburger menu
+2024-05-15 15:44:18: Option Filters
+2024-05-15 15:44:24: Page Screen is taken successfully.
+2024-05-15 15:44:24: You select clear button.
+2024-05-15 15:44:24: Page Screen is taken successfully.
+2024-05-15 15:44:26: Seleccionaste flecha del desplegable Group: Group - Barclays
+2024-05-15 15:44:28: Field Group selected: Group - Barclays
+2024-05-15 15:44:32: Field Region selected: Europe SEPA
+2024-05-15 15:44:34: Seleccionaste flecha del desplegable -Country
+2024-05-15 15:44:35: Field Country selected: United Kingdom
+2024-05-15 16:10:32: <<<<<<< Log Started >>>>>>>
+2024-05-15 16:10:32: The Browser is up
+2024-05-15 16:10:41: Environment: QA
+2024-05-15 16:10:46: Click on Login Button
+2024-05-15 16:10:49: You send User: rosario.chale@intelica.com
+2024-05-15 16:10:49: You send Password: depapym
+2024-05-15 16:10:50: Page Screen is taken successfully.
+2024-05-15 16:11:00: Click on Generate Token
+2024-05-15 16:11:01: Page Screen is taken successfully.
+2024-05-15 16:11:08: You change the lenguage: ESP
+2024-05-15 16:11:11: Perfil selected: -
+2024-05-15 16:11:11: Process about Perfil done.
+2024-05-15 16:11:11: Page Screen is taken successfully.
+2024-05-15 16:11:13: ---- * Seleccionaste Menu General * ----
+2024-05-15 16:11:14: Seleccionaste Menu principal: M&V Billing
+2024-05-15 16:11:17: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 16:11:20: Page Screen is taken successfully.
+2024-05-15 16:11:20: Select Option: Original Invoice
+2024-05-15 16:11:30: Page Screen is taken successfully.
+2024-05-15 16:11:30: You select (x) on this pop up
+2024-05-15 16:11:32: Page Screen is taken successfully.
+2024-05-15 16:11:33: Select the hamburger menu
+2024-05-15 16:11:36: Option Filters
+2024-05-15 16:11:41: Page Screen is taken successfully.
+2024-05-15 16:11:41: You select clear button.
+2024-05-15 16:11:42: Page Screen is taken successfully.
+2024-05-15 16:11:44: Seleccionaste flecha del desplegable Group: Group - Barclays
+2024-05-15 16:11:46: Field Group selected: Group - Barclays
+2024-05-15 16:11:50: Field Region selected: All
+2024-05-15 16:11:52: Seleccionaste flecha del desplegable -Country
+2024-05-15 16:11:53: Field Country selected: All
+2024-05-15 16:11:56: Seleccionaste flecha del desplegable -Bank
+2024-05-15 16:11:59: Field Bank selected: United Kingdom - Barclays BI
+2024-05-15 16:12:01: Seleccionaste flecha del desplegable -BankStatus
+2024-05-15 16:12:01: Field bankstatus selected: Inactive
+2024-05-15 16:12:04: Seleccionaste flecha del desplegable -Category
+2024-05-15 16:12:04: Field Category selected: ATM Service Fee
+2024-05-15 16:12:06: Seleccionaste flecha del desplegable -SubCategory
+2024-05-15 16:12:07: Field Subcategory selected: ATM Service Fee
+2024-05-15 16:12:08: You Send Fee code TEA1111
+2024-05-15 16:12:11: You Send Fee name TEA1111
+2024-05-15 16:12:18: You Send the field invoicenum: TEA1111
+2024-05-15 16:12:18: Page Screen is taken successfully.
+2024-05-15 16:12:18: You select buttom Apply
+2024-05-15 16:12:29: Page Screen is taken successfully.
