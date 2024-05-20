@@ -17,17 +17,41 @@ public class Filters_FieldsTask {
     public void field_group(String group) throws InterruptedException{
         Filters_FieldsUI filters = new Filters_FieldsUI();//You can use xpath, ID or name whatever you like
         filters.field_group.click();
-        Thread.sleep(5_000);
-        System.out.println("Seleccionaste flecha del desplegable Group");
+        Thread.sleep(2_000);//5
+        if(Objects.equals(group, "Group - Barclays")){
+            Filtersconfig x = new Filtersconfig();
+            x.field_group_config1(group);
+        }if(Objects.equals(group, "Group - Erste")){
+            Filtersconfig x = new Filtersconfig();
+            x.field_group_config2(group);
+        }if(Objects.equals(group, "Group - Isbank")){
+            Filtersconfig x = new Filtersconfig();
+            x.field_group_config3(group);
+        }if(Objects.equals(group, "Group - Lloyds")){
+            Filtersconfig x = new Filtersconfig();
+            x.field_group_config4(group);
+        }if(Objects.equals(group, "Group - MBH Bank")){
+            Filtersconfig x = new Filtersconfig();
+            x.field_group_config5(group);
+        }if(Objects.equals(group, "Group - OTP Bank")){
+            Filtersconfig x = new Filtersconfig();
+            x.field_group_config6(group);
+        }if(Objects.equals(group, "Group - Raiffeisen Bank ")){
+            Filtersconfig x = new Filtersconfig();
+            x.field_group_config7(group);
+        }if(Objects.equals(group, "Group - UniCredit Bank ")){
+            Filtersconfig x = new Filtersconfig();
+            x.field_group_config8(group);
+        }
+        System.out.println("Seleccionaste flecha del desplegable Group"+group);
     // se maneja por teclado
-        Filtersconfig x = new Filtersconfig();
-        x.field_group_config(group);
-
+        //Filtersconfig x = new Filtersconfig();
+        //x.field_group_config(group);
     }
     public void field_region(String region) throws InterruptedException{
         Filters_FieldsUI filters = new Filters_FieldsUI();
         filters.field_region.click();
-        Thread.sleep(4_000);
+        Thread.sleep(2_000);//4
         System.out.println("Seleccionaste flecha del desplegable -Region");
         // se maneja por teclado
         Filtersconfig x = new Filtersconfig();
@@ -36,7 +60,7 @@ public class Filters_FieldsTask {
     public void field_country(String country) throws InterruptedException{
         Filters_FieldsUI filters = new Filters_FieldsUI();
         filters.field_country.click();
-        Thread.sleep(4_000);
+        Thread.sleep(2_000);//4
         System.out.println("Seleccionaste flecha del desplegable -Country");
         // se maneja por teclado
         Filtersconfig x = new Filtersconfig();
@@ -46,7 +70,7 @@ public class Filters_FieldsTask {
     public void field_bank(String bank) throws InterruptedException{
         Filters_FieldsUI filters = new Filters_FieldsUI();
         filters.field_bank.click();
-        Thread.sleep(4_000);
+        Thread.sleep(2_000);//4
         System.out.println("Seleccionaste flecha del desplegable -Bank");
         // se maneja por teclado
         Filtersconfig x = new Filtersconfig();
@@ -55,7 +79,7 @@ public class Filters_FieldsTask {
     public void field_bank_status(String bankstatus) throws InterruptedException{
         Filters_FieldsUI filters = new Filters_FieldsUI();
         filters.field_bank_status.click();
-        Thread.sleep(4_000);
+        Thread.sleep(2_000);//4
         System.out.println("Seleccionaste flecha del desplegable -BankStatus");
         // se maneja por teclado
         Filtersconfig x = new Filtersconfig();
@@ -64,7 +88,7 @@ public class Filters_FieldsTask {
     public void field_category(String category) throws InterruptedException{
         Filters_FieldsUI filters = new Filters_FieldsUI();
         filters.field_category.click();
-        Thread.sleep(4_000);
+        Thread.sleep(2_000);//4
         System.out.println("Seleccionaste flecha del desplegable -Category");
         // se maneja por teclado
         Filtersconfig x = new Filtersconfig();
@@ -73,7 +97,7 @@ public class Filters_FieldsTask {
     public void field_subcategory(String subcategory) throws InterruptedException{
         Filters_FieldsUI filters = new Filters_FieldsUI();
         filters.field_subcategory.click();
-        Thread.sleep(4_000);
+        Thread.sleep(2_000);//4
         System.out.println("Seleccionaste flecha del desplegable -SubCategory");
         // se maneja por teclado
         Filtersconfig x = new Filtersconfig();
@@ -99,11 +123,11 @@ public class Filters_FieldsTask {
     public void field_feename(String feename) throws InterruptedException{
         Filters_FieldsUI filters = new Filters_FieldsUI();
         filters.field_feename.click();
-        Thread.sleep(1_000);
+        //Thread.sleep(1_000);
         filters.field_feename.sendKeys(feename);
-        Thread.sleep(2_000);
+        //Thread.sleep(2_000);
         System.out.println("You Send Fee name "+feename);
-        Thread.sleep(5_000);
+        Thread.sleep(3_000);
     }
     public void field_invoicenumber(String invoicenum,String period)throws InterruptedException{
         Filters_FieldsUI filters = new Filters_FieldsUI();
@@ -116,7 +140,7 @@ public class Filters_FieldsTask {
             //driver.findElement(By.xpath("//*[@id=\"ej2_dropdownlist_1\"]/span")).click();
             Field_periodUI x = new Field_periodUI();
             x.field_period.click();
-            Thread.sleep(4_000);
+            Thread.sleep(2_000);
             System.out.println("Seleccionaste flecha del desplegable -Period"+period);
             // se maneja por teclado
             Filtersconfig test = new Filtersconfig();
@@ -125,7 +149,7 @@ public class Filters_FieldsTask {
         }
         else{
             filters.field_invoicenumber.sendKeys(invoicenum);
-            Thread.sleep(4_000);
+            Thread.sleep(2_000);//4
         }
         System.out.println("You Send the field invoicenum: "+invoicenum);
     }

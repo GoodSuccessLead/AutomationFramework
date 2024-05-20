@@ -8,7 +8,7 @@ public class CredentialsTask {
         CredentialsUI user = new CredentialsUI();
         user.username.click();
         user.username.sendKeys(username);
-        Thread.sleep(2_000);
+        //Thread.sleep(2_000);
         System.out.println("You send User");
     }
 
@@ -22,7 +22,7 @@ public class CredentialsTask {
     public void token() throws InterruptedException{
         CredentialsUI button = new CredentialsUI();
         button.generate_token.click();
-        Thread.sleep(18_000); //se coloco tiempo solo para visualiar la plataforma
+        Thread.sleep(35_000); //se coloco tiempo solo para visualiar la plataforma
         System.out.println("Click on Generate Token");
         //se controlara la carga
     }
