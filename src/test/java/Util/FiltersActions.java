@@ -5,19 +5,10 @@ import org.openqa.selenium.interactions.Actions;
 
 import static Util.config.driver;
 
-public class Filtersconfig {
+public class FiltersActions {
     public void field_group_config1(String group) throws InterruptedException{
+        //Group - Barclays
         Actions actions = new Actions(driver);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        //Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        //Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        //Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        //Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        //Thread.sleep(1_000);
         actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
         //Thread.sleep(1_000);
         actions.sendKeys(Keys.ENTER).build().perform();//press enter
@@ -27,6 +18,7 @@ public class Filtersconfig {
         System.out.println("Field Group: "+group);
     }
     public void field_group_config2(String group) throws InterruptedException{
+        //Group - Erste
         Actions actions = new Actions(driver);
         actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
         actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
@@ -118,18 +110,32 @@ public class Filtersconfig {
         System.out.println("Field Group: "+group);
     }
 
-    public void field_region_config(String region) throws  InterruptedException {
+    public void field_region_config1(String region) throws  InterruptedException {
+
         Actions actions = new Actions(driver);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        //Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        //Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        //Thread.sleep(1_000);
+        actions.sendKeys(Keys.UP).build().perform();
+        Thread.sleep(1_000);
+        actions.sendKeys(Keys.ENTER).build().perform();
+        Thread.sleep(1_000);//era 5
+        System.out.println("Field Region: "+region);
+    }
+    public void field_region_config2(String region) throws  InterruptedException {
+
+        Actions actions = new Actions(driver);
         actions.sendKeys(Keys.ENTER).build().perform();//press enter
         Thread.sleep(1_000);//era 5
         System.out.println("Field Region: "+region);
     }
+    public void field_region_config3(String region) throws  InterruptedException {
+
+        Actions actions = new Actions(driver);
+        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
+        Thread.sleep(1_000);
+        actions.sendKeys(Keys.ENTER).build().perform();//press enter
+        Thread.sleep(1_000);//era 5
+        System.out.println("Field Region: "+region);
+    }
+
     public void field_country_config(String country) throws InterruptedException{
         Actions actions = new Actions(driver);
         actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
@@ -137,7 +143,7 @@ public class Filtersconfig {
         actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
         //Thread.sleep(1_000);
         actions.sendKeys(Keys.ENTER).build().perform();//press enter
-        Thread.sleep(1_000);//4
+        Thread.sleep(10_000);//4
         System.out.println("Field Region: "+country);
     }
     public void field_bank_config(String bank) throws InterruptedException{
