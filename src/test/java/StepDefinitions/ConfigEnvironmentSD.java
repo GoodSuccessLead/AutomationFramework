@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Map;
 
 public class ConfigEnvironmentSD {
-
+/*
     @Before
     public void setup() throws IOException {
         ConfigEnvironmentTask tst = new ConfigEnvironmentTask();
@@ -44,6 +44,36 @@ public class ConfigEnvironmentSD {
         String environment = testdata.get(Rownumber).get("environment");
 
         ConfigEnvironmentTask tst = new ConfigEnvironmentTask();
+        tst.intelica_environment(environment);
+    }
+
+ */
+private newTestexcel reader;
+    private ConfigEnvironmentTask tst;
+    private String environment;
+
+    @Before
+    public void setup() throws IOException {
+        reader = new newTestexcel();
+        tst = new ConfigEnvironmentTask();
+        tst.config_drivers();
+    }
+
+    @After
+    public void tearDown() {
+        tst.tear();
+    }
+
+    @Given("Read the excel file {},{}")
+    public void read_the_excel_file(String Sheetname, Integer Rownumber) throws IOException {
+        List<Map<String, String>> testdata = reader.getData("src/test/resources/ExcelData/Inputfile.xlsx", Sheetname);
+        environment = testdata.get(Rownumber).get("environment");
+    }
+
+    @And("I access to the platform {},{}")
+    public void i_access_to_the_platform(String Sheetname, Integer Rownumber) throws IOException {
+        List<Map<String, String>> testdata = reader.getData("src/test/resources/ExcelData/Inputfile.xlsx", Sheetname);
+        environment = testdata.get(Rownumber).get("environment");
         tst.intelica_environment(environment);
     }
 }
