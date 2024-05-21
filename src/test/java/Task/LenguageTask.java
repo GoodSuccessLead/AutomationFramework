@@ -22,6 +22,7 @@ public class LenguageTask {
         }else {
             System.out.println("Default lenguage: "+lenguage);
             log("Default lenguage: "+lenguage);
+            //pruebas mapeo campos
         }
     }
 }
