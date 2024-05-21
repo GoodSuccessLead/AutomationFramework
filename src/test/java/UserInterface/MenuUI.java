@@ -20,4 +20,5 @@ public class MenuUI extends config {
     public WebElement submenugprincipal4 = driver.findElement(By.xpath("//*[@id=\"default-sidebar\"]/div/nav/ul/li[5]"));
     public WebElement submenugprincipal5 = driver.findElement(By.xpath("//*[@id=\"default-sidebar\"]/div/nav/ul/li[6]"));
     public WebElement submenugprincipal6 = driver.findElement(By.xpath("//*[@id=\"default-sidebar\"]/div/nav/ul/li[7]"));
+    public WebElement submenugprincipal7 = driver.findElement(By.xpath("//*[@id=\"default-sidebar\"]/div/nav/ul/li[8]"));
 }

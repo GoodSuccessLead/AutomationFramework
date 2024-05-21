@@ -1,13 +1,25 @@
 package StepDefinitions;
 
+import Task.ConfigEnvironmentTask;
 import Task.Filters_FieldsTask;
+import Util.ScreenShot;
+import Util.TimeLoad;
+import Util.newTestexcel;
 import io.cucumber.java.en.And;
+
+import java.io.IOException;
+import java.io.ObjectInputFilter;
+import java.util.List;
+import java.util.Map;
 
 public class Filters_FieldsSD {
     @And("Select clear button")
-    public void select_clear_button() throws InterruptedException{
+    public void select_clear_button() throws InterruptedException, IOException {
         Filters_FieldsTask tst = new Filters_FieldsTask();
         tst.clear_button();
+
+        ScreenShot shoot = new ScreenShot();
+        shoot.TakeScreenShot();
         //boton clear
         /*FilterUi x = new FilterUi();
         x.clearbutton.click();
@@ -24,268 +36,111 @@ public class Filters_FieldsSD {
 
         */
     }
-    @And("Select Group {}")
-    public void select_group(String group) throws InterruptedException {
+    @And("Select Group {},{}")
+    public void select_group(String Sheetname, Integer Rownumber) throws InterruptedException, IOException {
+        newTestexcel reader = new newTestexcel();
+        List<Map<String, String>> testdata = reader.getData("src/test/resources/ExcelData/Inputfile.xlsx",Sheetname);
+        String group = testdata.get(Rownumber).get("group");
         Filters_FieldsTask fil = new Filters_FieldsTask();
         fil.field_group(group);
-        /*
-        Filters_FieldsUI filters = new Filters_FieldsUI();//You can use xpath, ID or name whatever you like
-        filters.field_group.click();
-        Thread.sleep(4_000);
-        System.out.println("Seleccionaste flecha del desplegable"+group);
-
-        Actions actions = new Actions(driver);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.ENTER).build().perform();//press enter
-        Thread.sleep(6_000);
-        //System.out.println("You Send: "+group+".");
-        //System.out.println("You press Enter");
-        System.out.println("Field Group: "+group);
-        */
     }
-    @And("Select the Region {}")
-    public void select_the_region(String region) throws InterruptedException{
+    @And("Select the Region {},{}")
+    public void select_the_region(String Sheetname, Integer Rownumber) throws InterruptedException, IOException {
+        newTestexcel reader = new newTestexcel();
+        List<Map<String, String>> testdata = reader.getData("src/test/resources/ExcelData/Inputfile.xlsx",Sheetname);
+        String region = testdata.get(Rownumber).get("region");
+        String group = testdata.get(Rownumber).get("group");
         Filters_FieldsTask fil = new Filters_FieldsTask();
-        fil.field_region(region);
-        /*
-       Filters_FieldsUI filters = new Filters_FieldsUI();
-       filters.field_region.click();
-       Thread.sleep(4_000);
-       System.out.println("Seleccionaste flecha del desplegable -Region");
-
-       Actions actions = new Actions(driver);
-       actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-       Thread.sleep(1_000);
-       actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-       Thread.sleep(1_000);
-       actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-       Thread.sleep(1_000);
-       actions.sendKeys(Keys.ENTER).build().perform();//press enter
-       Thread.sleep(5_000);
-       System.out.println("Field Region: "+region);
-    */
+        fil.field_region(region,group);
     }
-    @And("Select Country {}")
-    public void select_country(String country) throws InterruptedException{
+    @And("Select Country {},{}")
+    public void select_country(String Sheetname, Integer Rownumber) throws InterruptedException, IOException {
+        newTestexcel reader = new newTestexcel();
+        List<Map<String, String>> testdata = reader.getData("src/test/resources/ExcelData/Inputfile.xlsx",Sheetname);
+        String country = testdata.get(Rownumber).get("country");
+        String region = testdata.get(Rownumber).get("region");
         Filters_FieldsTask fil = new Filters_FieldsTask();
-        fil.field_country(country);
-        /*
-        Filters_FieldsUI filters = new Filters_FieldsUI();
-        filters.field_country.click();
-        Thread.sleep(4_000);
-        System.out.println("Seleccionaste flecha del desplegable -Country");
-
-        Actions actions = new Actions(driver);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.ENTER).build().perform();//press enter
-        Thread.sleep(4_000);
-        System.out.println("Field Region: "+country);
-        */
+        fil.field_country(country,region);
     }
-    @And("Select Bank {}")
-    public void select_bank(String bank) throws InterruptedException{
+    @And("Select Bank {},{}")
+    public void select_bank(String Sheetname, Integer Rownumber) throws InterruptedException, IOException {
+        newTestexcel reader = new newTestexcel();
+        List<Map<String, String>> testdata = reader.getData("src/test/resources/ExcelData/Inputfile.xlsx",Sheetname);
+        String bank = testdata.get(Rownumber).get("bank");
+        String country = testdata.get(Rownumber).get("country");
         Filters_FieldsTask fil = new Filters_FieldsTask();
-        fil.field_bank(bank);
-        /*
-        Filters_FieldsUI filters = new Filters_FieldsUI();
-        filters.field_bank.click();
-        Thread.sleep(4_000);
-        System.out.println("Seleccionaste flecha del desplegable -Bank");
-
-        Actions actions = new Actions(driver);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.ENTER).build().perform();//press enter
-        Thread.sleep(4_000);
-        System.out.println("Field Bank: "+bank);
-        */
+        fil.field_bank(bank,country);
     }
-    @And("Select BankStatus {}")
-    public void select_bankstatus(String bankstatus) throws InterruptedException{
+    @And("Select BankStatus {},{}")
+    public void select_bankstatus(String Sheetname, Integer Rownumber) throws InterruptedException, IOException {
+        newTestexcel reader = new newTestexcel();
+        List<Map<String, String>> testdata = reader.getData("src/test/resources/ExcelData/Inputfile.xlsx",Sheetname);
+        String bankstatus = testdata.get(Rownumber).get("bankstatus");
+        String bank = testdata.get(Rownumber).get("bank");
         Filters_FieldsTask fil = new Filters_FieldsTask();
-        fil.field_bank_status(bankstatus);
-       /*
-        Filters_FieldsUI filters = new Filters_FieldsUI();
-        filters.field_bank_status.click();
-        Thread.sleep(4_000);
-        System.out.println("Seleccionaste flecha del desplegable -BankStatus");
-
-        Actions actions = new Actions(driver);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.ENTER).build().perform();//press enter
-        Thread.sleep(4_000);
-        System.out.println("Field Region"+bankstatus);
-
-        */
+        fil.field_bank_status(bankstatus,bank);
     }
-    @And("Select the Category {}")
-    public void select_the_category(String category) throws InterruptedException{
+    @And("Select the Category {},{}")
+    public void select_the_category(String Sheetname,Integer Rownumber) throws InterruptedException, IOException {
+        newTestexcel reader = new newTestexcel();
+        List<Map<String, String>> testdata = reader.getData("src/test/resources/ExcelData/Inputfile.xlsx",Sheetname);
+        String category = testdata.get(Rownumber).get("category");
+        String bankstatus = testdata.get(Rownumber).get("bankstatus");
         Filters_FieldsTask fil = new Filters_FieldsTask();
-        fil.field_category(category);
-        /*
-        Filters_FieldsUI filters = new Filters_FieldsUI();
-        filters.field_category.click();
-        Thread.sleep(4_000);
-        System.out.println("Seleccionaste flecha del desplegable -Category");
-
-        Actions actions = new Actions(driver);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.ENTER).build().perform();//press enter
-        Thread.sleep(4_000);
-        System.out.println("Field Region"+category);
-         */
+        fil.field_category(category,bankstatus);
     }
-    @And("Select the SubCategory {}")
-    public void select_subcategory(String subcategory) throws InterruptedException{
+    @And("Select the SubCategory {},{}")
+    public void select_subcategory(String Sheetname,Integer Rownumber) throws InterruptedException, IOException {
+        newTestexcel reader = new newTestexcel();
+        List<Map<String, String>> testdata = reader.getData("src/test/resources/ExcelData/Inputfile.xlsx",Sheetname);
+        String subcategory = testdata.get(Rownumber).get("subcategory");
+        String category = testdata.get(Rownumber).get("category");
         Filters_FieldsTask fil = new Filters_FieldsTask();
-        fil.field_subcategory(subcategory);
-        /*
-        Filters_FieldsUI filters = new Filters_FieldsUI();
-        filters.field_subcategory.click();
-        Thread.sleep(4_000);
-        System.out.println("Seleccionaste flecha del desplegable -SubCategory");
-
-        Actions actions = new Actions(driver);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.ENTER).build().perform();//press enter
-        Thread.sleep(4_000);
-        System.out.println("Field Region"+subcategory);
-        */
+        fil.field_subcategory(subcategory,category);
     }
-    //stepdefinition FUELD PERIODO
-    // @And("Select Period {}")
-    //public void select_period(String period) throws InterruptedException{
-    // Filters_FieldsTask fil = new Filters_FieldsTask();
-    //fil.field_period(period);
-        /*
-        Filters_FieldsUI filters = new Filters_FieldsUI();
-        filters.field_period.click();
+    @And("Field Fee code {},{}") //Field
+    public void Fee_code(String Sheetname, Integer Rownumber) throws InterruptedException, IOException {
+        newTestexcel reader = new newTestexcel();
+        List<Map<String, String>> testdata = reader.getData("src/test/resources/ExcelData/Inputfile.xlsx",Sheetname);
+        String feecode = testdata.get(Rownumber).get("feecode");
 
-        //WebElement selectElement = driver.findElement(By.xpath("//*[@id=\"HamburgerMenu\"]/div/div[2]/div[2]/app-filter/div[1]/div/div[2]/div[6]/div/div[2]"));
-        //selectElement.click();
-        Thread.sleep(4_000);
-        System.out.println("Seleccionaste flecha del desplegable -Period");
-
-        Actions actions = new Actions(driver);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.DOWN).build().perform();//press down arrow key
-        Thread.sleep(1_000);
-        actions.sendKeys(Keys.ENTER).build().perform();//press enter
-        Thread.sleep(4_000);
-        System.out.println("Field Region"+period);
-    */
-    //
-    // }
-    @And("Field Fee code {}") //Field
-    public void Fee_code(String feecode) throws InterruptedException {
         Filters_FieldsTask fil = new Filters_FieldsTask();
         fil.field_feecode(feecode);
-        /*
-        //Subcategory
-        //driver.findElement(By.xpath("//*[@id=\"HamburgerMenu\"]/div/div[2]/div[2]/app-filter/div[1]/div/div[1]/div[3]/div/div[2]/input")).click();
-        //driver.findElement(By.xpath("//*[@id=\"HamburgerMenu\"]/div/div[2]/div[2]/app-filter/div[1]/div/div[1]/div[3]/div/div[2]/input")).sendKeys("TEAT7995"); // se enviara por variables
-        //System.out.println("You Send Fee code ");
-        Filters_FieldsUI filters = new Filters_FieldsUI();
-        filters.field_feecode.click();
-        filters.field_feecode.sendKeys(feecode);
-
-        //driver.findElement(By.xpath("//*[@id=\"HamburgerMenu\"]/div/div[2]/div[2]/app-filter/div[1]/div/div[2]/div[2]/div/div[2]/input")).click();
-        //driver.findElement(By.xpath("//*[@id=\"HamburgerMenu\"]/div/div[2]/div[2]/app-filter/div[1]/div/div[2]/div[2]/div/div[2]/input")).sendKeys(feecode); // se enviara por variables
-
-        System.out.println("You Send Fee code "+feecode);
-        Thread.sleep(3_000);
-        */
     }
-    @And("Field Fee name {}") //Field
-    public void Fee_name(String feename) throws InterruptedException {
+    @And("Field Fee name {},{}") //Field
+    public void Fee_name(String Sheetname, Integer Rownumber) throws InterruptedException, IOException {
+        newTestexcel reader = new newTestexcel();
+        List<Map<String, String>> testdata = reader.getData("src/test/resources/ExcelData/Inputfile.xlsx",Sheetname);
+        String feename = testdata.get(Rownumber).get("feename");
+
         Filters_FieldsTask fil = new Filters_FieldsTask();
         fil.field_feename(feename);
-        /*
-        Filters_FieldsUI filters = new Filters_FieldsUI();
-        filters.field_feename.click();
-        Thread.sleep(1_000);
-        filters.field_feename.sendKeys(feename);
-        Thread.sleep(2_000);
-        System.out.println("You Send Fee name "+feename);
-        Thread.sleep(5_000);
-         */
     }
     @And("Field Invoice number {},{}") //Field
-    public void Invoice_number(String invoicenum, String period) throws InterruptedException {
+    public void Invoice_number(String Sheetname, Integer Rownumber) throws InterruptedException, IOException {
+        newTestexcel reader = new newTestexcel();
+        List<Map<String, String>> testdata = reader.getData("src/test/resources/ExcelData/Inputfile.xlsx",Sheetname);
+        String invoicenum = testdata.get(Rownumber).get("invoicenum");
+        String period = testdata.get(Rownumber).get("period");
+
         Filters_FieldsTask fil = new Filters_FieldsTask();
         fil.field_invoicenumber(invoicenum,period);
-        //Subcategory
-        //driver.findElement(By.xpath("//*[@id=\"HamburgerMenu\"]/div/div[2]/div[2]/app-filter/div[1]/div/div[2]/div[4]/div/div[2]/input")).click();
-        //driver.findElement(By.xpath("//*[@id=\"HamburgerMenu\"]/div/div[2]/div[2]/app-filter/div[1]/div/div[2]/div[1]/div/div[2]/input")).sendKeys("1111");
-        //-driver.findElement(By.xpath("//*[@id=\"HamburgerMenu\"]/div/div[2]/div[2]/app-filter/div/div/div[2]/div[4]/div/div[2]")).click();
 
-        //-driver.findElement(By.xpath("//*[@id=\"HamburgerMenu\"]/div/div[2]/div[2]/app-filter/div/div/div[2]/div[4]/div/div[2]")).sendKeys("1111");
-        //*[@id="HamburgerMenu"]/div/div[2]/div[2]/app-filter/div/div/div[2]/div[4]/div/div[2]
-        //driver.findElement(By.className("txtBoxStyle ng-pristine ng-valid ng-star-inserted ng-touched")).click();
-        //driver.findElement(By.className("txtBoxStyle ng-pristine ng-valid ng-star-inserted ng-touched")).sendKeys("1111");
-
-        /* UTILIZAR ESTE ULTIMO ES ACTUALIZADO****
-        Filters_FieldsUI filters = new Filters_FieldsUI();
-        filters.field_invoicenumber.click();
-        Thread.sleep(1_000);
-        filters.field_invoicenumber.sendKeys(invoicenum);
-        System.out.println("You Send Fee invoice_number ");
-        Thread.sleep(4_000);
-
-         */
+        ScreenShot shoot = new ScreenShot();
+        shoot.TakeScreenShot();
     }
 
-    /*
-    @And("Field Entity type") //Field
-    public void Entity_type() throws InterruptedException {
-        //Subcategory
-        driver.findElement(By.xpath(""));
-        System.out.println("");
-        Thread.sleep(5_000);
-    }*/
-    /*
-    @And("Field Period") //Field
-    public void Period() throws InterruptedException {
-        //Subcategory
-        driver.findElement(By.xpath(""));
-        System.out.println("");
-        Thread.sleep(5_000);
-    }*/
     @And("Select apply after complete any fields") //doy click en apply
-    public void Select_apply_after_complete_any_fields() throws InterruptedException {
+    public void Select_apply_after_complete_any_fields() throws InterruptedException, IOException {
         Filters_FieldsTask fil = new Filters_FieldsTask();
         fil.applybuton();
-        /*
-        Filters_FieldsUI button = new Filters_FieldsUI();
-        button.apply_button.click();
-        System.out.println("You select buttom Apply");
-        Thread.sleep(1_000);
-         */
+        //ConfigEnvironmentTask testtimefilter = new ConfigEnvironmentTask();
+        //testtimefilter.waittimefilters();
+
+        //TimeLoad time = new TimeLoad(); // tiempo de espera
+        //time.test();
+
+        ScreenShot shoot = new ScreenShot();
+        shoot.TakeScreenShot();
     }
 }

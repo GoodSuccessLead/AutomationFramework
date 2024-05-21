@@ -1,0 +1,45 @@
+2024-05-15 11:58:19: <<<<<<< Log Started >>>>>>>
+2024-05-15 11:58:19: The Browser is up
+2024-05-15 11:58:27: Environment: QA
+2024-05-15 11:58:32: Click on Login Button
+2024-05-15 11:58:34: You send User: rosario.chale@intelica.com
+2024-05-15 11:58:35: You send Password: depapym
+2024-05-15 11:58:35: Page Screen is taken successfully.
+2024-05-15 11:58:45: Click on Generate Token
+2024-05-15 11:58:45: Page Screen is taken successfully.
+2024-05-15 11:58:54: You change the lenguage: ESP
+2024-05-15 11:58:56: Perfil selected: -
+2024-05-15 11:58:56: Process about Perfil done.
+2024-05-15 11:58:56: Page Screen is taken successfully.
+2024-05-15 11:58:58: ---- * Seleccionaste Menu General * ----
+2024-05-15 11:58:58: Seleccionaste Menu principal: M&V Billing
+2024-05-15 11:59:02: Seleccionaste Sub-Menu: Fee Summary
+2024-05-15 11:59:07: Page Screen is taken successfully.
+2024-05-15 11:59:07: Select Option: Original Invoice
+2024-05-15 11:59:17: Page Screen is taken successfully.
+2024-05-15 11:59:17: You select (x) on this pop up
+2024-05-15 11:59:19: Page Screen is taken successfully.
+2024-05-15 11:59:19: Select the hamburger menu
+2024-05-15 11:59:22: Option Filters
+2024-05-15 11:59:27: Page Screen is taken successfully.
+2024-05-15 11:59:27: You select clear button.
+2024-05-15 11:59:27: Page Screen is taken successfully.
+2024-05-15 11:59:30: Seleccionaste flecha del desplegable Group: Group - Barclays
+2024-05-15 11:59:32: Field Group selected: Group - Barclays
+2024-05-15 11:59:35: Field Region selected: All
+2024-05-15 11:59:37: Seleccionaste flecha del desplegable -Country
+2024-05-15 11:59:38: Field Country selected: All
+2024-05-15 11:59:41: Seleccionaste flecha del desplegable -Bank
+2024-05-15 11:59:44: Field Bank selected: United Kingdom - Barclays BI
+2024-05-15 11:59:46: Seleccionaste flecha del desplegable -BankStatus
+2024-05-15 11:59:46: Field bankstatus selected: Inactive
+2024-05-15 11:59:49: Seleccionaste flecha del desplegable -Category
+2024-05-15 11:59:49: Field Category selected: ATM Service Fee
+2024-05-15 11:59:51: Seleccionaste flecha del desplegable -SubCategory
+2024-05-15 11:59:52: Field Subcategory selected: ATM Service Fee
+2024-05-15 11:59:52: You Send Fee code TEA1111
+2024-05-15 11:59:55: You Send Fee name TEA1111
+2024-05-15 12:00:02: You Send the field invoicenum: TEA1111
+2024-05-15 12:00:02: Page Screen is taken successfully.
+2024-05-15 12:00:02: You select buttom Apply
+2024-05-15 12:00:12: Page Screen is taken successfully.
